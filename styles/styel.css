@@ -1,0 +1,239 @@
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: 'interregular', sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content-section {
+    max-width: 320px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.content-section_theme_dark {
+    background-color: #131313;
+    color: white;
+}
+.content-section_theme_bright {
+    background-color: #FEE42A;
+    color: black;
+}
+
+
+.header {
+    padding: 24px 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header__logo-image {
+    width: 78px;
+    height: 15px;
+}
+.header__menu {
+    display: flex;
+    flex-direction: column;
+}
+.meader__menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px 0px;
+    list-style-type: none;
+}
+.header__menu-item_active {
+    color: white;
+    text-decoration: none;
+}
+.header__menu-item {
+    color: white;
+}
+.content {
+    flex-wrap: 1;
+}
+
+
+.cover {
+    padding: 30px 0px 30px 0px;
+    background-image: url(/images/cover.svg);
+    background-position:  center;
+    background-size: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.cover__title {
+    padding: 0px 20px;
+    color: #FFF;
+    font-family: EB Garamond, serif;
+    font-size: 72px;
+    font-weight: 400;
+}
+.accent-span {
+    display: inline-block;
+    display: flex;
+}
+.text-center {
+    justify-content: center;
+}
+.text-right {
+    justify-content: flex-end;
+}
+
+
+
+.intro {
+    padding: 0px 20px 38px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+.intro__heading {
+    display: flex;
+    column-gap: 16px;
+    margin-bottom: 24px;
+}
+.intro__title {
+    justify-content: space-between;
+    flex: 1 1 60%;
+}
+.intro__main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+
+.reason {
+    padding: 40px 20px;
+}
+.content-section__subtitle {
+    font-family: EB Garamond, serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 30px;
+}
+.content-section__introduction {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-bottom: 30px;
+}
+.content-section__list {
+    font-size: 16px;
+    line-height: 21.6px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px 0px;
+    margin-left: 6px;
+}
+.content-section__list span {
+    font-weight: 700;
+
+}
+.content-section__list-item {
+    margin-left: 10px;
+}
+
+
+.how-to {
+    padding: 40px 20px 60px 20px;
+}
+.cards-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 32px 0px;
+}
+.card {
+    border-radius: 30px;
+}
+.card_theme_dark {
+    background-color: rgba(52, 52, 52, 1);
+
+}
+.card__content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0px;
+}
+.card__author-photo {
+    width: 100px;
+    height: 100px;
+}
+.card__author {
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0px;
+}
+.card__author-name {
+    font-size: 16px;
+    font-weight: 700;
+}
+.card__title {
+    font-family: EB Garamond;
+    font-size: 22px;
+    font-weight: 500;
+}
+.card__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+.card_theme_bright {
+    background-color: rgba(254, 228, 42, 1);
+}
+.card_text-only {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px 0px;
+}
+.card_text-only h6 {
+    color:#131313;
+    font-family: EB Garamond;
+    font-size: 19px;
+    font-weight: 500;
+    padding-top: 8px;
+}
+.card_text-only p {
+    color:#131313;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+
+.footer {
+    padding: 20px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #FEE42A;
+    height: 60px;
+}
+.footer__copy {
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer__links {
+    display: flex;
+    gap: 0px 16px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer__links a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
